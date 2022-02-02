@@ -6,10 +6,10 @@ import PoolWithdrawPage from '@/pages/pool/withdraw.vue';
 import LiquidityMiningPage from '@/pages/liquidity-mining.vue';
 import TradePage from '@/pages/trade.vue';
 import CreatePoolPage from '@/pages/pool/create.vue';
-import MigratePoolPage from '@/pages/pool/migrate.vue';
 import TermsOfUsePage from '@/pages/terms-of-use.vue';
 import PrivacyPolicyPage from '@/pages/privacy-policy.vue';
 import CookiesPolicyPage from '@/pages/cookies-policy.vue';
+import LockBptPage from '@/pages/lock-bpt.vue';
 
 const routes: RouteRecordRaw[] = [
   {
@@ -52,12 +52,6 @@ const routes: RouteRecordRaw[] = [
     meta: { layout: 'PoolTransferLayout' }
   },
   {
-    path: '/pool/migrate/:from/:to',
-    name: 'migrate-pool',
-    component: MigratePoolPage,
-    meta: { layout: 'FocusedLayout' }
-  },
-  {
     path: '/liquidity-mining',
     name: 'liquidity-mining',
     component: LiquidityMiningPage
@@ -79,6 +73,12 @@ const routes: RouteRecordRaw[] = [
     name: 'cookies-policy',
     component: CookiesPolicyPage,
     meta: { layout: 'ContentLayout' }
+  },
+  {
+    path: '/get-vebpt',
+    name: 'get-vebpt',
+    component: LockBptPage,
+    meta: { layout: 'FocusedLayout' }
   },
   {
     path: '/:pathMatch(.*)*',

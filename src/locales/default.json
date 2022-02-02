@@ -526,6 +526,57 @@
     "swapFeeManager": "Swap fee manager",
     "switchNetwork": "Switch Network",
     "symbol": "Symbol",
+    "staking": {
+        "lock": {
+            "lockableTokens": {
+                "title": "Lockable tokens in my wallet",
+                "getMoreBpt": "Get {0}"
+            },
+            "howToLock": {
+                "title": "How to lock and earn?",
+                "steps": {
+                    "invest": "Invest in the {0} pool",
+                    "lock": "Lock up the resulting LP token ({0}). The longer you lock ({1} max), the more veBPT you get."
+                },
+                "earn": {
+                    "boost": "veBPT holders get boosted liquidity mining yields (up to {1}) and increased voting power.",
+                    "voting": "Use this voting power to choose which pool gauges get allocated liquidity mining incentives. Vote on the pools where you have added liquidity to earn more yield."
+                }
+            },
+            "myLockedBpt": {
+                "title": "My veBPT",
+                "lockedUntil": "Locked until",
+                "percentBPT": "% of total veBPT"
+            },
+            "lockBptForm": {
+                "title": "Lock to get veBPT",
+                "lockAmount": {
+                    "title": "How much do you want to lock?"
+                },
+                "lockUntil": {
+                    "title": "Lock until",
+                    "tooltip": "The longer you lock your stake, the more veBAL voting power you get (up to 4 years). You can extend the lock later. Be careful, locking is not reversible."
+                },
+                "summary": {
+                    "receive": {
+                        "title": "You'll get",
+                        "tooltip": ""
+                    },
+                    "weeklyYield": {
+                        "title": "Potential weekly staking yield",
+                        "tooltip": ""
+                    }
+                },
+                "lockPeriods": {
+                    "1w": "1 week",
+                    "1m": "1 month",
+                    "6m": "6 months",
+                    "1y": "1 year",
+                    "4y": "4 years"
+                }
+            }
+        }
+    },
     "tableShowsBalancerV2Pools": "This table shows only Balancer V2 pools.",
     
     "theme": "Theme",
